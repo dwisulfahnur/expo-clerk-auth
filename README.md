@@ -3,6 +3,11 @@
 A modern authentication app built with Expo and Clerk, featuring a clean UI and multiple sign-in options.
 
 
+## 🎥 Preview
+
+https://github.com/user-attachments/assets/751a921f-0260-4ccf-a780-b8333ec98348
+
+
 ## ✨ Features
 
 - 🔒 Secure authentication with Clerk
