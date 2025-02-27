@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# Expo Auth App with Clerk 🔐
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern authentication app built with Expo and Clerk, featuring a clean UI and multiple sign-in options.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- 🔒 Secure authentication with Clerk
+- 🌓 Dark/Light mode support
+- 📱 Cross-platform (iOS & Android)
+- 🔑 Multiple sign-in options:
+  - Email/Password
+  - Google OAuth
+  - Facebook OAuth
+  - Apple Sign-in (iOS only)
+- 🎨 Clean UI with Tamagui
+- 📱 Native alerts and haptic feedback
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or newer)
+- npm or yarn
+- Expo CLI
+- iOS Simulator or Android Emulator
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone [your-repo-url]
+   ```
+
+2. Install dependencies
    ```bash
    npm install
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Set up environment variables
+   Create a `.env` file in the root directory and add your Clerk keys:
+   ```
+   EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key
    ```
 
-In the output, you'll find options to open the app in a
+4. Start the development server
+   ```bash
+   npx expo start
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Running the App
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+After starting the development server, you can:
+- Press `i` to open in iOS simulator
+- Press `a` to open in Android emulator
+- Scan the QR code with Expo Go (Android) or Camera app (iOS)
 
-## Get a fresh project
+## 🛠️ Built With
 
-When you're ready, run:
+- [Expo](https://expo.dev)
+- [Clerk](https://clerk.dev)
+- [Tamagui](https://tamagui.dev)
+- [React Navigation](https://reactnavigation.org)
 
-```bash
-npm run reset-project
-```
+## 📝 License
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Learn more
+## 🤝 Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Contributions, issues, and feature requests are welcome!
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📧 Contact
 
-## Join the community
+Your Name - [@dwisulfahnur](https://twitter.com/dwisulfahnur)
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Project Link: [https://github.com/dwisulfahnur/expo-clerk-auth](https://github.com/dwisulfahnur/expo-clerk-auth)
