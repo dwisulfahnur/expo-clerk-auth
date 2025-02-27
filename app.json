@@ -36,6 +36,10 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "fonts": [
+      "node_modules/@tamagui/font-inter/otf/Inter-Medium.otf",
+      "node_modules/@tamagui/font-inter/otf/Inter-Regular.otf"
+    ]
   }
 }
