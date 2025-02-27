@@ -2,10 +2,10 @@
 
 A modern authentication app built with Expo and Clerk, featuring a clean UI and multiple sign-in options.
 
+
 ## ✨ Features
 
 - 🔒 Secure authentication with Clerk
-- 🌓 Dark/Light mode support
 - 📱 Cross-platform (iOS & Android)
 - 🔑 Multiple sign-in options:
   - Email/Password
@@ -13,7 +13,6 @@ A modern authentication app built with Expo and Clerk, featuring a clean UI and 
   - Facebook OAuth
   - Apple Sign-in (iOS only)
 - 🎨 Clean UI with Tamagui
-- 📱 Native alerts and haptic feedback
 
 ## 🚀 Getting Started
 
@@ -28,7 +27,7 @@ A modern authentication app built with Expo and Clerk, featuring a clean UI and 
 
 1. Clone the repository
    ```bash
-   git clone [your-repo-url]
+   git clone https://github.com/dwisulfahnur/expo-clerk-auth
    ```
 
 2. Install dependencies
@@ -59,7 +58,6 @@ After starting the development server, you can:
 - [Expo](https://expo.dev)
 - [Clerk](https://clerk.dev)
 - [Tamagui](https://tamagui.dev)
-- [React Navigation](https://reactnavigation.org)
 
 ## 📝 License
 
